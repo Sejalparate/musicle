@@ -43,7 +43,7 @@ Integration of a machine learning-based recommendation system for suggesting new
 ## Run the application
 Execute the following command to start the Streamlit application
 
-    ```bash
+  ```bash
     streamlit run app.py
-    ```
+  ```
 
