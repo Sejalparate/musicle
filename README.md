@@ -9,7 +9,8 @@ Musicle is a versatile music playlist management system designed for users to ef
 - Add new songs to playlists.
 - View details of songs in a selected playlist.
 - Edit song details of the playlist.
-- Delete playlists.
+- Delete playlists and songs.
+- Youtube links to the song are created and updated dynamically, without user interference.
 
 
 
@@ -36,7 +37,7 @@ Integration of a machine learning-based recommendation system for suggesting new
 
 2. Set up the MySQL database:
     - Create a new database named `music_db`.
-    - Update the database connection details in your Python script (replace with your MySQL host, username, and password).
+    - Update the database connection details in your Python script (replace with your own MySQL host, username, and password).
 
   
 
