@@ -1,13 +1,13 @@
 import mysql.connector
-import streamlit as st
 from youtubesearchpython import VideosSearch
+from core.config import settings
 
 # Database connection
 db = mysql.connector.connect(
-    host="localhost",
-    user="root",
-    passwd="qwerty",
-    database="music_db"
+    host=settings.DB_HOST,
+    user=settings.DB_USER,
+    passwd=settings.DB_PASSWORD,
+    database=settings.DB_NAME
 )
 cursor = db.cursor()
 

@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-from queries import *
+from core.db import *
 
 # Streamlit app
 def main():
@@ -41,6 +41,7 @@ def main():
 
             table_html = songs_df.to_html(escape = False)
             table_html = table_html.replace('<th>', '<th style = "text-align: left;">')
+            table_html = table_html.replace('<table', '<table style="max-width: 100%;"')
             
             st.markdown(table_html, unsafe_allow_html = True)
 
