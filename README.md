@@ -17,16 +17,9 @@ Musicle is a versatile music playlist management system designed for users to ef
 ## Upcoming Features
 
 Integration of a machine learning-based recommendation system for suggesting new songs or creating personalized playlists based on user preferences.
-
-
-
-## Make sure you have the following software installed:
-
-- Python (>=3.6)
-- MySQL database
   
 
-## Installation
+## Setup
 
 1. Clone the repository:
 
@@ -34,14 +27,9 @@ Integration of a machine learning-based recommendation system for suggesting new
     git clone https://github.com/Sejalparate/musicle.git
     cd musicle
     ```
+ 
 
-2. Set up the MySQL database:
-    - Create a new database named `music_db`.
-    - Update the database connection details in your Python script (replace with your own MySQL host, username, and password).
-
-  
-
-## Run the application
+2. Run the application
 Execute the following command to start the Streamlit application
 
   ```bash
